@@ -1,4 +1,4 @@
-public class SmartTv {
+public class Tv {
     boolean estadoTv = false;
     int Volume = 25;
     int Canal = 1;
