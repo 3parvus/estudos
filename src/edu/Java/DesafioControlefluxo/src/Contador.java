@@ -19,10 +19,9 @@ public class Contador {
             
 		
 		}catch (ParametrosInvalidosException e) {
-            System.out.println(e.getMessage);
 			
         }
-		terminal.close();
+		
 	}
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 		
@@ -38,7 +37,6 @@ public class Contador {
 		
 	}
     static class ParametrosInvalidosException extends Exception{
-        public char[] getMessage;
 
         public ParametrosInvalidosException(){            
            super("o segundo parametro deve ser maior que o primeiro!");
